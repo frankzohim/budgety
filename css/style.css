@@ -1,0 +1,18 @@
+.header-section {
+  background-image: url("../images/bg-2.webp");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.income {
+  background-color: green;
+  height: 50px;
+  width: 35%;
+  margin-bottom: 20px;
+}
+.expenses {
+  background-color: red;
+  height: 50px;
+  width: 35%;
+}
