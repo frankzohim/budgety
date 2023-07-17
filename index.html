@@ -53,7 +53,10 @@
     <div class="container-fluid" style="background-color: #e5e4e2">
       <div class="d-flex flex-row justify-content-center align-items-center">
         <div class="p-2 bd-highlight">
-          <input type="number" class="form-control" size="3px" />
+          <select name="dropdown" id="">
+            <option value="+" selected>+</option>
+            <option value="-">-</option>
+          </select>
         </div>
         <div class="p-2 bd-highlight text-white">
           <input
@@ -72,7 +75,9 @@
           />
         </div>
         <div class="p-2">
-          <i class="bi bi-check-circle fa-2x"></i>
+          <button class="add__btn">
+            <i class="bi bi-check-circle fa-2x"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -83,6 +88,9 @@
         <div class="col fw-bold" style="color: red">EXPENSES</div>
       </div>
     </div>
+
+    <!-- Loading JS file-->
+    <script src="js/apps.js"></script>
 
     <!-- Latest compiled and minified bootstrap JavaScript -->
     <script
